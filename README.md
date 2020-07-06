@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-The program stats off with a warning from the CDC. To continue to the seach feature the user must press 'enter'. This will display up to date information on the global infection rates, and ask the user to input a country. This feature is not case sensitive and will return a country even if the entire name of the country is not entered ("united states" will return the information for "United States of America"). After returnig the information for the requested country, the user will be presented with a menu. from here the user can find the country with the highest number of confirmed cases, the highest number of new confirmed cases, view all countries with no new confirmed cases, view a country selected at random, or exit the program. The menu is navigated by using the up/down arrow keys and enter. 
+The program starts off with a warning from the CDC. To continue to the seach feature the user must press 'enter'. This will display up to date information on the global infection rates, and ask the user to input a country. This feature is not case sensitive and will return a country even if the entire name of the country is not entered ("united states" will return the information for "United States of America"). After returnig the information for the requested country, the user will be presented with a menu. from here the user can find the country with the highest number of confirmed cases, the highest number of new confirmed cases, view all countries with no new confirmed cases, view a country selected at random, or exit the program. The menu is navigated by using the up/down arrow keys and enter. 
 
 ## Development
 
