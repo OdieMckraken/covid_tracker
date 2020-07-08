@@ -4,29 +4,13 @@ This is a CLI program for tracking live information about the COVID-19 infection
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'covid_status_by_country'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install covid_status_by_country
+Clone this repository
 
 ## Usage
 
-The program starts off with a warning from the CDC. To continue to the seach feature the user must press 'enter'. This will display up to date information on the global infection rates, and ask the user to input a country. This feature is not case sensitive and will return a country even if the entire name of the country is not entered ("united states" will return the information for "United States of America"). After returnig the information for the requested country, the user will be presented with a menu. from here the user can find the country with the highest number of confirmed cases, the highest number of new confirmed cases, view all countries with no new confirmed cases, view a country selected at random, or exit the program. The menu is navigated by using the up/down arrow keys and enter. 
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+From command prompt, cd into parrent directory 
+run `bin/setup`
+run `bin/console`
 
 ## Contributing
 
