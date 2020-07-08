@@ -4,6 +4,8 @@
 #  class Error < StandardError; end
 #  # Your code goes here...
 #end
+require "bundler/setup"
+require "irb"
 
 require 'pry'
 require 'httparty'
