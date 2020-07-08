@@ -20,14 +20,14 @@ class CountryStatus
         @@all
     end
 
-    def self.country_stats(i)
-        puts "        #{i.country}\n\n".green.bold
-        puts "        New confirmed cases:".yellow + "        #{i.new_confirmed}\n".red
-        puts "        Total confrimed cases:".yellow + "      #{i.total_confirmed}\n".red
-        puts "        Number of new deaths:".yellow + "       #{i.new_deaths}\n".red
-        puts "        Total number of deaths:".yellow + "     #{i.total_deaths}\n".red
-        puts "        Number of new recoveries:".yellow + "   #{i.new_recovered}\n".red
-        puts "        Total number of recoveries:".yellow + " #{i.total_recovered}".red
+    def self.country_stats(country_obj)
+        puts "        #{country_obj.country}\n\n".green.bold
+        puts "        New confirmed cases:".yellow + "        #{country_obj.new_confirmed}\n".red
+        puts "        Total confrimed cases:".yellow + "      #{country_obj.total_confirmed}\n".red
+        puts "        Number of new deaths:".yellow + "       #{country_obj.new_deaths}\n".red
+        puts "        Total number of deaths:".yellow + "     #{country_obj.total_deaths}\n".red
+        puts "        Number of new recoveries:".yellow + "   #{country_obj.new_recovered}\n".red
+        puts "        Total number of recoveries:".yellow + " #{country_obj.total_recovered}".red
     end
 
     def self.zero_new_cases
