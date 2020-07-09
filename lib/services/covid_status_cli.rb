@@ -3,10 +3,10 @@ class CovidCLI
     attr_accessor :input
     
     def run
-        covid = CovidStatusApi.new
         
-        covid.get_global_status
-        covid.get_country_status
+        covid = CovidStatusApi.new        
+        covid.get_global_status        
+        covid.get_country_status       
         @pastel = Pastel.new
         @font = TTY::Font.new(:block)
 

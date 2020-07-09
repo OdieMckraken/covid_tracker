@@ -47,7 +47,7 @@ class CountryStatus
     end
 
     def self.find_country_by_name
-        CountryStatus.all.detect {|country_hash| country_hash.country.upcase.include? (Covid.input.upcase)}
+        CountryStatus.all.detect {|country_hash| country_hash.country.upcase.include? (Cov.input.upcase)}
     end
 
     def self.print_country_info(country)
