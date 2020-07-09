@@ -166,8 +166,8 @@ class CovidCLI
     end
 
     def invalid_entry_text
-        line
-        puts "  Invalid entry".red
+        new_page
+        puts "    Invalid entry".red
         line
         line
     end
