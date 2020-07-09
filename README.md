@@ -1,6 +1,9 @@
 # CovidStatusByCountry
 
-This is a CLI program for tracking live information about the COVID-19 infection. The user is able to search by country, highest number of confirmed cases, and highest number of new confirmed cases. The user can also view all countries with no new confirmed cases, and view a country selected at random.  
+This is a CLI program for tracking live information about the COVID-19 infection. The user is able to search by country, highest number of confirmed cases, and highest number of new confirmed cases. The user can also view all countries with no new confirmed cases, and view a country selected at random. 
+
+This project would not have been possible without covid19api.com! 
+
 
 ## Installation
 
