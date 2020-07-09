@@ -9,14 +9,7 @@ require 'dotenv/load'
 Bundler.require
 require "irb"
 
-#  require 'pry'
-#  require 'httparty'
-#  require 'colorize'
-#  require 'yaml'
-#  require 'tty-font'
-#  require 'pastel'
-#  require 'tty-prompt'
-#  require 'pp'
+
 
 
 require_relative "../lib/covid_status_by_country/version"
