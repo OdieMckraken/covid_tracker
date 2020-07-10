@@ -17,5 +17,5 @@ require_relative '../lib/services/covid_status_api.rb'
 require_relative '../lib/models/country_status.rb'
 require_relative '../lib/models/global_status.rb'
 require_relative '../lib/services/covid_status_cli.rb'
-
+require_relative '../lib/models/animation.rb'
 

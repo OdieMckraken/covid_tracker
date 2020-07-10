@@ -73,7 +73,8 @@ class CovidCLI
         {name: '   View countries with no new confirmed cases', value: 4},
         {name: '   Get the stats for a random country', value: 5},
         {name: '   When was this information last updated?', value: 6},
-        {name: '   Exit', value: 7}
+        {name: '   Exit', value: 7},
+        {name: '', value: 8}
             ]
 
         user_input = prompt.select("\n\n    What would you like to do next?\n\n".green.bold, choices)
@@ -139,6 +140,9 @@ class CovidCLI
 
             when 7
             end_program
+
+            when 8 
+                Animation.animating
         end
     end
                    
