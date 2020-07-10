@@ -46,8 +46,8 @@ class CountryStatus
         CountryStatus.all.sample
     end
 
-    def self.find_country_by_name
-        CountryStatus.all.detect {|country_hash| country_hash.country.upcase.include? (Cov.input.upcase)}
+    def self.find_country_by_name(input)
+        CountryStatus.all.detect {|country_hash| country_hash.country.upcase.include?(input)}
     end
 
     def self.print_country_info(country)

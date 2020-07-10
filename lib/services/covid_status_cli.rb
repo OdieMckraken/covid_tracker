@@ -178,13 +178,13 @@ class CovidCLI
    
     def user_interaction
         
-        @input = gets.chomp
+        self.input = gets.chomp
           
-        until @input == "exit"
+        until input == "exit"
                 
-            if CountryStatus.all.detect {|country_hash| country_hash.country.upcase.include? (@input.upcase)}
+            if CountryStatus.all.detect {|country_hash| country_hash.country.upcase.include? (input.upcase)}
                 new_page
-                CountryStatus.print_country_info(CountryStatus.find_country_by_name)
+                CountryStatus.print_country_info(CountryStatus.find_country_by_name(input.upcase))
                 user_menu
                                            
                 else
